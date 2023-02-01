@@ -1,0 +1,18 @@
+﻿units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Fleet Bokchoy"
+		naval_base = 2405
+		task_force = {				
+			name = "Bokchoyan Task Force"				
+			location =  2405
+			ship = { name = "DD1" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BOK version_name = "Bokchoy Class" } } }
+			ship = { name = "DD2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BOK version_name = "Bokchoy Class" } } }
+			ship = { name = "DD3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BOK version_name = "Bokchoy Class" } } }
+			ship = { name = "DD4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BOK version_name = "Bokchoy Class" } } }
+			ship = { name = "DD5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BOK version_name = "Bokchoy Class" } } }
+			ship = { name = "DD6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BOK version_name = "Bokchoy Class" } } }
+		}							
+	}
+}

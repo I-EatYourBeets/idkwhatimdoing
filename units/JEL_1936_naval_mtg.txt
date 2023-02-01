@@ -1,0 +1,13 @@
+﻿units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Fleet Twy"
+		naval_base = 2465
+		task_force = {				
+			name = "Capisch Task Force"				
+			location =  2465
+			ship = { name = "DD1" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JEL version_name = "Miku Class" } } }
+		}							
+	}
+}

@@ -1,0 +1,26 @@
+﻿units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Mesa Fleet"
+		naval_base = 8622
+		task_force = {				
+			name = "Task Force Kester"				
+			location =  8622			
+			ship = { name = "Ship Kester" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KES version_name = "Mesa Class" } } }
+			ship = { name = "CL1" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KES version_name = "Custard Class" } } }
+			ship = { name = "CL2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KES version_name = "Custard Class" } } }
+			ship = { name = "CL3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KES version_name = "Custard Class" } } }
+			ship = { name = "DD1" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KES version_name = "Kester Class" } } }
+			ship = { name = "DD2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KES version_name = "Kester Class" } } }
+			ship = { name = "DD3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KES version_name = "Kester Class" } } }
+			ship = { name = "DD4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KES version_name = "Kester Class" } } }
+			ship = { name = "DD5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KES version_name = "Kester Class" } } }
+			ship = { name = "DD6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KES version_name = "Kester Class" } } }
+			ship = { name = "DD7" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KES version_name = "Kester Class" } } }
+			ship = { name = "DD8" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KES version_name = "Kester Class" } } }
+			ship = { name = "DD9" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KES version_name = "Kester Class" } } }
+			ship = { name = "DD10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KES version_name = "Kester Class" } } }
+		}							
+	}
+}

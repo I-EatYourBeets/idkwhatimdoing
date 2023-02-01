@@ -1,0 +1,21 @@
+﻿units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "The Ships"
+		naval_base = 5565
+		task_force = {				
+			name = "Adventure Carrot"				
+			location =  5565
+			ship = { name = "Air Conditioning" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = PRN version_name = "Air Conditioning" } } }				
+			ship = { name = "Allocated Calcium" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PRN version_name = "Allocated Calcium" } } }
+			ship = { name = "All Carbon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PRN version_name = "Allocated Calcium" } } }
+			ship = { name = "Aromatic Computer" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PRN version_name = "Allocated Calcium" } } }
+			ship = { name = "Announced Capture" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PRN version_name = "Allocated Calcium" } } }
+			ship = { name = "AP Chemistry" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PRN version_name = "Allocated Calcium" } } }
+			ship = { name = "Asbestos Column" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PRN version_name = "Allocated Calcium" } } }
+			ship = { name = "Anti-Cinnamon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PRN version_name = "Allocated Calcium" } } }
+			ship = { name = "Australian Copyright" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PRN version_name = "Allocated Calcium" } } }
+		}							
+	}
+}

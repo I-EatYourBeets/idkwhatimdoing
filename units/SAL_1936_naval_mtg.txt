@@ -1,0 +1,48 @@
+﻿units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Flotta Veneta"
+		naval_base = 349
+		task_force = {				
+			name = "Task Force Veneziana"				
+			location =  349
+			ship = { name = "Most Serene Ship of Venice" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SAL version_name = "Venezia Class" } } }				
+			ship = { name = "Terra di Mooroo" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAL version_name = "Salmon Class" } } }
+			ship = { name = "Terra del Fungo" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAL version_name = "Salmon Class" } } }
+			ship = { name = "CL1" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAL version_name = "Commerce Class" } } }
+			ship = { name = "CL2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAL version_name = "Commerce Class" } } }
+			ship = { name = "CL3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAL version_name = "Commerce Class" } } }
+			ship = { name = "CL4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAL version_name = "Commerce Class" } } }
+			ship = { name = "DD1" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAL version_name = "Sorrow Class" } } }
+			ship = { name = "DD2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAL version_name = "Sorrow Class" } } }
+			ship = { name = "DD3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAL version_name = "Sorrow Class" } } }
+			ship = { name = "DD4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAL version_name = "Sorrow Class" } } }
+			ship = { name = "DD5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAL version_name = "Sorrow Class" } } }
+			ship = { name = "DD6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAL version_name = "Sorrow Class" } } }
+			ship = { name = "DD7" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAL version_name = "Sorrow Class" } } }
+			ship = { name = "DD8" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAL version_name = "Sorrow Class" } } }
+			ship = { name = "DD9" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAL version_name = "Sorrow Class" } } }
+			ship = { name = "DD10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAL version_name = "Sorrow Class" } } }
+			ship = { name = "DD11" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAL version_name = "Sorrow Class" } } }
+			ship = { name = "DD12" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAL version_name = "Sorrow Class" } } }
+			ship = { name = "DD13" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAL version_name = "Sorrow Class" } } }
+			ship = { name = "DD14" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAL version_name = "Sorrow Class" } } }
+			ship = { name = "DD15" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAL version_name = "Sorrow Class" } } }
+			ship = { name = "DD16" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SAL version_name = "Sorrow Class" } } }
+		}							
+	}
+}
+
+instant_effect={
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "SAL" 
+			version_name = "Mooroo Class"
+		}
+		requested_factories = 1
+		progress = 0.25
+		amount = 1
+	}
+}

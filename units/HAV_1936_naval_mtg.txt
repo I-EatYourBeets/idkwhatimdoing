@@ -1,0 +1,18 @@
+﻿units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Fun Fleet"
+		naval_base = 4431
+		task_force = {				
+			name = "Have Fun!"				
+			location =  4431
+			ship = { name = "Having Fun" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAV version_name = "Fun Class" } } }
+			ship = { name = "DD2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAV version_name = "Fun Class" } } }
+			ship = { name = "DD3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAV version_name = "Fun Class" } } }
+			ship = { name = "DD4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAV version_name = "Fun Class" } } }
+			ship = { name = "DD5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAV version_name = "Fun Class" } } }
+			ship = { name = "DD6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAV version_name = "Fun Class" } } }
+		}							
+	}
+}

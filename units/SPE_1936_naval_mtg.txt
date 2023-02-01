@@ -1,0 +1,16 @@
+﻿units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Space Force Fleet"
+		naval_base = 8621
+		task_force = {				
+			name = "New Maroonian Task Force"				
+			location =  8621
+			ship = { name = "DD1" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SPE version_name = "Space Class" } } }
+			ship = { name = "DD2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SPE version_name = "Space Class" } } }
+			ship = { name = "DD3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SPE version_name = "Space Class" } } }
+			ship = { name = "DD4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SPE version_name = "Space Class" } } }
+			ship = { name = "DD5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SPE version_name = "Space Class" } } }		}							
+	}
+}

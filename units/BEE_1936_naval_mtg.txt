@@ -1,0 +1,23 @@
+﻿units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Fire Fleet"
+		naval_base = 2100
+		task_force = {				
+			name = "Task Force Kopfland"				
+			location =  2100
+			ship = { name = "CL1" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BEE version_name = "Slavery Class" } } }
+			ship = { name = "CL2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BEE version_name = "Slavery Class" } } }
+			ship = { name = "CL3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BEE version_name = "Slavery Class" } } }
+			ship = { name = "DD1" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BEE version_name = "idk lol Class" } } }
+			ship = { name = "DD2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BEE version_name = "idk lol Class" } } }
+			ship = { name = "DD3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BEE version_name = "idk lol Class" } } }
+			ship = { name = "DD4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BEE version_name = "idk lol Class" } } }
+			ship = { name = "DD5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BEE version_name = "idk lol Class" } } }
+			ship = { name = "DD6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BEE version_name = "idk lol Class" } } }
+			ship = { name = "DD7" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BEE version_name = "idk lol Class" } } }
+			ship = { name = "DD8" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BEE version_name = "idk lol Class" } } }
+		}							
+	}
+}

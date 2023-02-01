@@ -1,0 +1,103 @@
+﻿division_template = {
+	name = "Infantry Division"			#Infantry Division - In 1936, Albania sent everyone a discord crash gif, but due to poor technology in the country it did not work.
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+	}
+}
+
+division_template = {
+	name = "chicago mafia"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Mountaineer Division"
+	regiments = { 
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	 }
+}
+
+units = {
+	division = { 
+		location = 2119
+		division_template = "Infantry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+
+	}
+	division = { 
+		location = 2119
+		division_template = "Infantry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+
+	}
+	division = { 
+		location = 2119
+		division_template = "Infantry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+
+	}
+	division = { 
+		location = 2119
+		division_template = "Infantry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+
+	}
+	division = { 
+		location = 2119
+		division_template = "chicago mafia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = { 
+		location = 2119
+		division_template = "chicago mafia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = { 
+		location = 2119
+		division_template = "chicago mafia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = { 
+		location = 2119
+		division_template = "chicago mafia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = { 
+		location = 2119
+		division_template = "Mountaineer Division"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+}

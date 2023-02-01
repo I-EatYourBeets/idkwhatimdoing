@@ -1,0 +1,67 @@
+﻿units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Home Fleet"
+		naval_base = 5280
+		task_force = {				
+			name = "Task Force Potokyo"				
+			location =  5280	
+			ship = { name = "CA2" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GEN version_name = "Minkyo Class" } } }
+			ship = { name = "CL1" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GEN version_name = "Touhou Class" } } }
+			ship = { name = "CL2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GEN version_name = "Touhou Class" } } }
+			ship = { name = "CL3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GEN version_name = "Touhou Class" } } }
+			ship = { name = "CL4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GEN version_name = "Touhou Class" } } }
+			ship = { name = "DD1" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEN version_name = "Jo Class" } } }
+			ship = { name = "DD2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEN version_name = "Jo Class" } } }
+			ship = { name = "DD3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEN version_name = "Jo Class" } } }
+			ship = { name = "DD4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEN version_name = "Jo Class" } } }
+			ship = { name = "DD5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEN version_name = "Jo Class" } } }
+			ship = { name = "DD6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEN version_name = "Jo Class" } } }
+			ship = { name = "DD7" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEN version_name = "Jo Class" } } }
+			ship = { name = "DD8" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEN version_name = "Jo Class" } } }
+			ship = { name = "DD9" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEN version_name = "Jo Class" } } }
+			ship = { name = "DD10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEN version_name = "Jo Class" } } }
+			ship = { name = "DD11" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEN version_name = "Jo Class" } } }
+			ship = { name = "DD12" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEN version_name = "Jo Class" } } }
+		}							
+	}
+
+	fleet = {
+		name = "Kourindou Fleet"
+		naval_base = 4301
+		task_force = {				
+			name = "Task Force Kourindou"				
+			location =  6549	
+			ship = { name = "CA1" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GEN version_name = "Minkyo Class" } } }
+			ship = { name = "DD13" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEN version_name = "Jo Class" } } }
+			ship = { name = "DD14" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GEN version_name = "Jo Class" } } }
+		}							
+	}
+}
+
+instant_effect={
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "GEN" 
+			version_name = "Gensokyo Class"
+		}
+		requested_factories = 2
+		progress = 0.50
+		amount = 1
+	}
+}
+
+instant_effect={
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "GEN" 
+			version_name = "Jo Class"
+		}
+		requested_factories = 2
+		progress = 0.25
+		amount = 2
+	}
+}

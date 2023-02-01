@@ -1,0 +1,156 @@
+﻿division_template = {
+	name = "Infantry Half Division"			#Infantry Division - In 1936, Albania sent everyone a discord crash gif, but due to poor technology in the country it did not work.
+
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Infantry Brigade"
+
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = { 
+		location = 5533
+		division_template = "Infantry Half Division"
+		start_experience_factor = 1
+		start_equipment_factor = 0.95
+
+	}
+	division = { 
+		location = 5533
+		division_template = "Infantry Half Division"
+		start_experience_factor = 1
+		start_equipment_factor = 0.9
+
+	}
+	division = { 
+		location = 1037
+		division_template = "Infantry Half Division"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	division = { 
+		location = 5548
+		division_template = "Infantry Half Division"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	division = { 
+		location = 5555
+		division_template = "Infantry Half Division"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	division = { 
+		location = 5533
+		division_template = "Infantry Half Division"
+		start_experience_factor = 1
+		start_equipment_factor = 0.7
+
+	}
+	division = { 
+		location = 1037
+		division_template = "Infantry Half Division"
+		start_experience_factor = 1
+		start_equipment_factor = 0.7
+
+	}
+	division = { 
+		location = 5548
+		division_template = "Infantry Half Division"
+		start_experience_factor = 1
+		start_equipment_factor = 0.6
+
+	}
+	division = { 
+		location = 5555
+		division_template = "Infantry Half Division"
+		start_experience_factor = 1
+		start_equipment_factor = 0.6
+	}
+	division = { 
+		location = 5533
+		division_template = "Infantry Half Division"
+		start_experience_factor = 1
+		start_equipment_factor = 0.6
+
+	}
+	division = { 
+		location = 1037
+		division_template = "Infantry Half Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.6
+
+	}
+	division = { 
+		location = 5548
+		division_template = "Infantry Half Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.6
+
+	}
+	division = { 
+		location = 5555
+		division_template = "Infantry Half Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.6
+
+	}
+	division = { 
+		location = 5548
+		division_template = "Infantry Half Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+
+	}
+	division = { 
+		location = 5555
+		division_template = "Infantry Half Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+	division = { 
+		location = 5533
+		division_template = "Infantry Half Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+
+	}
+	division = { 
+		location = 1037
+		division_template = "Infantry Half Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+
+	}
+	division = { 
+		location = 5548
+		division_template = "Infantry Half Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+
+	}
+	division = { 
+		location = 5555
+		division_template = "Infantry Half Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+
+	}
+}

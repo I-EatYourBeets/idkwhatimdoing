@@ -1,0 +1,13 @@
+﻿units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Fleet Eyeland"
+		naval_base = 5161
+		task_force = {				
+			name = "Bonian Task Force"				
+			location =  5161
+			ship = { name = "DD1" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BON version_name = "Boniland Class" } } }
+		}							
+	}
+}
